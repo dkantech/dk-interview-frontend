@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Vue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://unpkg.com/vue@3"></script>
+    <style>
+      /* css 작성 */
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!-- HTML 작성 -->
+    </div>
+
+    <script>
+      const app = Vue.createApp({
+        /////////////////optionAPI
+        // mounted() {},
+        // data() {
+        //   return {
+        //     count: 0
+        //   };
+        // },
+        // methods: {},
+        /////////////////compositionAPI
+        // setup() {
+        //   const count = ref(0);
+        //   return {
+        //     count,
+        //   };
+        // },
+      });
+
+      app.mount("#app");
+    </script>
+  </body>
+</html>
